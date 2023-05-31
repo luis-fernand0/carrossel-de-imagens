@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="carrossel">
+            <img class="imagem ativa" src="src/images/arvore-rosa.png" alt="folhas de uma arvore rosa">
+            <img class="imagem" src="src/images/planta-amarela.png" alt="folhas de uma planta amarela">
+            <img class="imagem" src="src/images/lago.png" alt="montanhas ao redor de um lago">
+            <img class="imagem" src="src/images/montanhas.png" alt="luz do por do sol refletindo nas montanhas">
+        </div>
+
+        <div class="sobre-e-botao">
+            <div class="botoes">
+                <div class="seta-esquerda">
+                    <img src="src/images/seta-esquerda.png" alt="seta para esquerda" onload="addOpacidade()">
+                </div>
+
+                <div class="seta-direita">
+                    <img src="src/images/seta-direita.png" alt="seta para direita">
+                </div> 
+            </div>
+
+            <div class="sobre-as-imagens">
+                <section class="descricao ativa">
+                    <h2>Titulo da imagem 1</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat aliquet, at eleifend augue pulvinar. Phasellus nulla eros, consequat a ipsum in, ultrices volutpat felis. Duis in nibh a tellus sodales finibus. Fusce libero turpis, sodales eu facilisis et, tristique vitae nibh. Praesent arcu eros, condimentum a interdum in, semper in ante. Suspendisse dolor urna, volutpat a e</p>
+
+                    <a class="saiba-mais vermelho" href="#">Saiba mais</a>
+                </section>
+
+               <section class="descricao">
+                    <h2>Titulo da imagem 2</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat aliquet, at eleifend augue pulvinar. Phasellus nulla eros, consequat a ipsum in, ultrices volutpat felis. Duis in nibh a tellus sodales finibus. Fusce libero turpis, sodales eu facilisis et, tristique vitae nibh. Praesent arcu eros, condimentum a interdum in, semper in ante. Suspendisse dolor urna, volutpat a e</p>
+
+                    <a class="saiba-mais amarelo" href="#">Saiba mais</a>
+                </section>
+
+                <section class="descricao">
+                    <h2>Titulo da imagem 3</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat aliquet, at eleifend augue pulvinar. Phasellus nulla eros, consequat a ipsum in, ultrices volutpat felis. Duis in nibh a tellus sodales finibus. Fusce libero turpis, sodales eu facilisis et, tristique vitae nibh. Praesent arcu eros, condimentum a interdum in, semper in ante. Suspendisse dolor urna, volutpat a e</p>
+
+                    <a class="saiba-mais azul" href="#">Saiba mais</a>
+                </section>
+
+                <section class="descricao">
+                    <h2>Titulo da imagem 4</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat aliquet, at eleifend augue pulvinar. Phasellus nulla eros, consequat a ipsum in, ultrices volutpat felis. Duis in nibh a tellus sodales finibus. Fusce libero turpis, sodales eu facilisis et, tristique vitae nibh. Praesent arcu eros, condimentum a interdum in, semper in ante. Suspendisse dolor urna, volutpat a e</p>
+
+                    <a class="saiba-mais marrom" href="#">Saiba mais</a>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
